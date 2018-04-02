@@ -55,3 +55,56 @@ You will also need a [Rainbow HAT](https://shop.pimoroni.com/products/rainbow-ha
 
 - [Raspberry Pi 3](https://developer.android.com/things/hardware/raspberrypi-kit.html)
 - [NXP i.MX7D Pico](https://developer.android.com/things/hardware/imx7d-kit.html)
+<br/>
+
+## Connecting our device  ##
+
+**Note:** please note the following instructions are to connect the device to a Mac.
+
+Before we create our project we need to check that our device is connected to our computer. We do this by using the [adb tool](https://developer.android.com/studio/command-line/adb.html).
+
+The **adb tool** comes with the Android SDK Platform-Tools package we installed in the previous step.
+
+It is normally installed in the `Android/sdk/platform-tools` or `android_sdk/platform-tools` directories.
+
+Make sure the Android Things device is connected to the computer by USB. Then we will need to open Terminal and run the command below:
+
+```
+$ adb devices
+```
+
+You should see a message like this:
+
+```
+$ adb devices
+List of devices attached
+1b2f21d4e1fe0129 device
+```
+
+If you got this message, skip the rest of this page and continue with the following step.
+
+If you got an error message indicating `-bash: adb: command not found`, please choose one of the two options below to solve the problem:
+
+- **Option 1:** Using Terminal, navigate to the folder where `adb` is installed. This will most likely be: `/Users/_YourUsername_/Library/Android/sdk/platform-tools/`. Once in this location, we can use adb with the command `./adb devices`. We should get a result similar to the one below:
+
+```
+$ ./adb devices
+List of devices attached
+1b2f21d4e1fe0129 device
+```
+
+
+- **Option 2:** We can also add `adb` to our path. This way we won't need to navigate to the location of `adb` each time we want to use this tool. In order to add adb to our path, we need to type the following commands in Terminal. Make sure the path matches the location of your `tools` and `platform-tools` folders:
+
+```
+$ export PATH=~/Library/Android/sdk/tools:$PATH
+$ export PATH=~/Library/Android/sdk/platform-tools:$PATH
+```
+
+After we have done this, we can simply use the command `$adb devices` to get a list of our connected devices:
+
+```
+$ adb devices
+List of devices attached
+1b2f21d4e1fe0129 device
+```
