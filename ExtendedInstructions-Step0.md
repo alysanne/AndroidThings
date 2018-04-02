@@ -17,14 +17,20 @@ Before we start with the project, we need to make sure we have the following ins
 In order to check or install this, open Android Studio and go to `Preferences`:
 
 ![Android Studio Preferences](images/AS-preferences.png)
+<br/>
+<br/>
 
 Use the menu to navigate to `Appearance & Behavior > System Settings > Android SDK`
 
 ![Android SDK](images/Android-SDK.png)
+<br/>
+<br/>
 
 In the `SDK Platforms` tab, make sure **Android API 27** is installed. If it's not installed, click over the tickbox to select it for installation.
 
 ![Android SDK Platforms](images/SDK-platforms.png)
+<br/>
+<br/>
 
 Go to the `SDK Tools` tab. If any of these are not installed, click over the corresponding tickbox in order to do so:
 - **Android SDK Build-Tools:** make sure you have version 25.0.3 or higher. You can check your version by ticking the "Show Package Details" tickbox in the bottom right corner.
@@ -32,6 +38,7 @@ Go to the `SDK Tools` tab. If any of these are not installed, click over the cor
 - **Android SDK Tools**
 
 ![Android SDK Tools](images/SDK-tools.png)
+<br/>
 <br/>
 
 ### Android Things ###
