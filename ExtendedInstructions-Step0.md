@@ -37,7 +37,7 @@ Go to the `SDK Tools` tab. If any of these are not installed, click over the cor
 - **Android SDK Platform-Tools**
 - **Android SDK Tools**
 
-![Android SDK Tools](images/SDK-tools-small.png)
+![Android SDK Tools](images/SDK-tools.png)
 <br/>
 <br/>
 
