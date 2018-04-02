@@ -16,13 +16,13 @@ Before we start with the project, we need to make sure we have the following ins
 
 In order to check or install this, open Android Studio and go to `Preferences`:
 
-![Android Studio Preferences](images/AS-preferences.png)
+![Android Studio Preferences](images/AS-preferences-small.png)
 <br/>
 <br/>
 
 Use the menu to navigate to `Appearance & Behavior > System Settings > Android SDK`
 
-![Android SDK](images/Android-SDK.png)
+![Android SDK](images/Android-SDK-small.png)
 <br/>
 <br/>
 
@@ -37,7 +37,7 @@ Go to the `SDK Tools` tab. If any of these are not installed, click over the cor
 - **Android SDK Platform-Tools**
 - **Android SDK Tools**
 
-![Android SDK Tools](images/SDK-tools.png)
+![Android SDK Tools](images/SDK-tools-small.png)
 <br/>
 <br/>
 
